@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    margin: 50px;
+    margin-top: 150px;
+}
+
+.sombrero {
+    width: 0;
+    height: 0;
+    border: 150px solid transparent;
+    border-top: 0;
+    border-bottom: 250px solid crimson;
+    position: absolute;
+    top: -165px;
+    z-index: 2;
+    right: -30px;
+    transform: rotate(25deg);
+}
+
+.adorno-sombrero {
+    background-color: #ddd;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #aaa;
+}
+
+.cara {
+    width: 500px;
+    height: 600px;
+    border: 7px solid #999;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.ojo1,
+.ojo2 {
+    height: 115px;
+    width: 110px;
+    border: 4px solid #888;
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.ojo1 {
+    top: 133px;
+    left: 88px;
+}
+
+.ojo2 {
+    top: 133px;
+    right: 88px;
+}
+
+.iris {
+    background-color: #333;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+}
+
+.brillo-ojo {
+    background-color: #eee;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 16px;
+}
+
+.chapita1,
+.chapita2 {
+    background-color: rgb(255, 206, 206);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: 300px;
+}
+
+.chapita1 {
+    left: 52px;
+}
+
+.chapita2 {
+    right: 52px;
+}
+
+.nariz {
+    background: radial-gradient(rgb(255, 126, 126), #f00);
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.boca {
+    background-color: #333;
+    width: 250px;
+    height: 170px;
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 43% 47% 50% 50% / 33% 34% 66% 67%;
+}
+
+.lengua {
+    background-color: crimson;
+    width: 115px;
+    height: 100px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 43% 47% 50% 50% / 33% 34% 66% 67%;
+}
